@@ -1,0 +1,81 @@
+html{
+    box-sizing: border box;
+    }
+*, *:before, *:after{
+    box-sizing: inherit;
+    }
+
+.container {
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+        grid-template-rows: 20% 50% 30%;
+    grid-template-columns: 20% 50% 30%;
+justify-content: center;
+border: 1px solid black;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+
+}
+p{
+    text-align: start;
+    
+   
+    line-height: 2rem;
+}
+
+header{
+    
+    grid-area: 1/1/2/span 3;
+    border: 2px solid red;
+   
+}
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    border: 5px solid green;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+   
+}
+
+h1, h2{
+    font-family: cursive;
+}
+h2{
+    font-size: 2rem;
+}
+article{
+    padding: 0.8rem;
+}
+
+.divider{
+    grid-area: 3/2/4/span 2;
+    
+    
+}
+.divider div{
+    padding: 1rem 0 1rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.tech{
+    background-color: orange;
+}
+.politics{
+    background-color: rgba(39, 165, 187, 0.849);
+}
+.local{
+    background-color: rgb(99, 189, 159);
+}
+.opinion{
+    background-color: rgba(45, 106, 185, 0.555);
+}
+.sport{
+    background-color: rgba(177, 97, 209, 0.712);
+}
