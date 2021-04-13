@@ -76,3 +76,9 @@ article{
 .sport{
     background-color: rgba(177, 97, 209, 0.712);
 }
+
+@media all and (960px{
+    .container{
+    display: block;
+    }
+    )
