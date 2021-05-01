@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="overlay">
+    <div class="container main-container">
+  <!--header-->
+  <header class="mt-5 mb-5">
+    <div class="container ">
+      <div class="row">
+        <div class="col col-expand-sm text-center  ">
+          <h1 >freeCodeCamp Survey Form</h1>
+          <h4 ><em>Thank you for taking the time to help us improve the platform</em></h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="myform">
+    <div class="container">
+      <div class="row">
+       <div class="col">
+        <div class="form">
+          <div class="form-group mt-4">
+            <label for="name">Name</label>
+            <input type="text" name="" id="" placeholder="Enter your name" class="form-control">
+          </div>
+          <div class="form-group mt-4">
+            <label for="email">Email</label>
+            <input type="email" name="" id="" placeholder="Enter your Email" class="form-control">
+          </div>
+          <div class="form-group mt-4">
+            <label for="age">Age (optional)</label>
+            <input type="text" name="" id="" min="1" max="10" placeholder="Age" class="form-control">
+          </div>
+          <div class="form-group mt-4">
+            <label for="current-role">Which option best describes your current role?</label>
+            <select class="form-control" name="" id="current-role">
+              <option value="" readonly> Select current role</option>
+              <option value=""> Student</option>
+              <option value=""> Full-time job</option>
+              <option value=""> Full time learner</option>
+              <option value=""> Prefer not to say</option>
+              <option value="">Others</option>
+            </select>
+            <div class="form-group mt-4">
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <div class="form-check">              
+              <label  class="form-check-label">
+                <input type="radio" name="recommend" class="form-check-input"> Definitely
+              </label>              
+            </div>
+            <div class="form-check">
+              <label  class="form-check-label">
+                <input type="radio" name="recommend" class="form-check-input"> Maybe
+              </label>             
+            </div>
+            <div class="form-check">
+              <label  class="form-check-label">
+                <input type="radio" name="recommend" id="" class="form-check-input"> Not Sure
+              </label>
+            </div>
+          </div>
+            <div class="form-group mt-4">
+              <label for="fav-features">What is your favorite feature of freeCodeCamp?</label>
+              <select class="form-control" name="" id="fav-features">
+                <option value="" readonly> Select an option</option>
+                <option value=""> Challenges</option>
+                <option value=""> Projects</option>
+                <option value=""> Community</option>
+                <option value=""> Open Source</option>                
+              </select>
+              <div class="form-group mt-4">
+                <label > What would you like to see improved? ( <small> Check all that apply</small>)</label>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Front-end Projects
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Back-end Projects
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Data Visualization
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Challenges
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Open Source Community
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Gitter help rooms
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Videos
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> City Meetups
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Wiki
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Forum
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Additional Courses
+                  </label>
+                </div>
+                <div class="form-group mt-4">
+                  <label for="message">Any comments or suggestions?</label>
+                  <textarea name="message" id="message"  rows="3" class="form-control" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-block btn-success mt-4 mb-5">Submit</button>
+              </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  <div class="mt-5"></div>
+</div>
+</div>
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+    
+</body>
+</html>

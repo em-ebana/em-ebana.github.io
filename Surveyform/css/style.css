@@ -1,0 +1,32 @@
+body{
+    color: #fff;
+
+}
+body{
+    background: url(../img/lights.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.main-container{
+    width: 60%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 700px;
+}
+
+#myform{
+    background-color: rgba(42, 42, 73, 1);
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    
+}
